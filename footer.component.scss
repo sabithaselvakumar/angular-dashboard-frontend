@@ -1,0 +1,60 @@
+footer {
+  background-image: url(/assets/images/footer\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 0;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px !important;
+ 
+
+}
+.text-reset{
+  font-weight: bold;
+}
+
+h1{
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex-basis: 25%;
+  padding: 0 10px;
+ 
+}
+
+p {
+  margin: 30px;
+  
+
+}
+
+a {
+  color:black;
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.text1
+{
+ 
+  margin: 0px;
+}
+
+.column3
+{
+ 
+ margin-top: 200px;
+  
+}
+
