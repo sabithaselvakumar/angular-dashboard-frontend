@@ -1,0 +1,15 @@
+<app-header></app-header>
+
+<div class="header-products">
+  <div class="product-card" *ngFor="let product of products; let i = index">
+    <div class="column">
+      <div class="image-container">
+        <img [src]="product.imageUrl" alt="Product Image">
+      </div>
+      <h3>{{ product.name }}</h3>
+      <p>{{ product.price }}</p>
+      <button (click)="addToCart(i)">Add to Cart</button>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
