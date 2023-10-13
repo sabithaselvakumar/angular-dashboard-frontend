@@ -1,0 +1,15 @@
+<section class="product">
+  <owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide *ngFor="let product of products">
+      <div class="one">
+        <img [src]="product.imageUrl" alt="{{ product.name }}">
+        <p>{{ product.productname }}</p>
+        <span>{{ product.productdescription }}</span>
+        <p>{{ product.price }}</p>
+        <p>{{ product.grams }}</p>
+        <p>{{ product.quantity }}</p>
+        <button class="add1" (click)="addToCart(product)" routerLink="/cartpage">Add to cart</button>
+      </div>
+    </ng-template>
+  </owl-carousel-o>
+</section>
